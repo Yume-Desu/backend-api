@@ -1,0 +1,10 @@
+#app.yaml
+runtime: python39
+
+env_variables:
+  CLOUD_SQL_USERNAME: capstone
+  CLOUD_SQL_PASSWORD: 12345678910
+  CLOUD_SQL_DATABASE_NAME: db-project
+  CLOUD_SQL_CONNECTION_NAME: project-capstone-c22-ps348:asia-southeast2:db-cpstn-c22-ps348
+  
+  CLOUD_STORAGE_BUCKET: prjct-bucket1
